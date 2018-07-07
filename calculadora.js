@@ -44,3 +44,9 @@ for (var inicial = 2; total <= numero; inicial++)
 alert ("el total es " + total);
 console.log ("el total es " + total);
 }
+
+var operacion_usuario = prompt ('quieres hacer otra operacion');
+if(operacion_usuario === "si"){
+
+location.reload();
+}
